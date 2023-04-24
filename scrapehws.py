@@ -7,7 +7,7 @@ import time
 
 keyword = ""
 refreshtimemin = 10
-refreshtime = 10*60
+refreshtime = refreshtimemin*60
 
 options = Options()         
 options.add_argument('--headless')
